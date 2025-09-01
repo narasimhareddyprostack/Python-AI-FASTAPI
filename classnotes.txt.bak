@@ -1,0 +1,17 @@
+Task 1: invoke api and display all usernames
+API URL:https://jsonplaceholder.typicode.com/users
+Method Type:GET
+Access Type:public
+Required Fields: None
+
+
+how to consume api in python?
+requests modules
+
+import requests
+resp = requests.get('https://jsonplaceholder.typicode.com/users')
+data=resp.json()
+print(type(data))
+
+===================================
+Task 2:
