@@ -1,0 +1,8 @@
+unames=['rahul','sonai','priyanka','modi','amith','rajni']
+
+Task 1: collect all user names with upper case into new list
+       
+Tast 2: collect all user names their name start with 'r' 
+using without map/filter
+using with map/filter
+using with map/filter using lambda
