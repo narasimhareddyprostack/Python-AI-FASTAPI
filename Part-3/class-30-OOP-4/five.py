@@ -1,0 +1,44 @@
+class Order:
+    ''' created by Narasimha '''
+    def __init__(self,id,name,price):
+        print("constructor is special method") 
+        self.order_id=id 
+        self.details=name 
+        self.price=price
+        
+    def add_discount(self):
+        self.discount=50
+    @classmethod
+    def check_avail(cls):
+        cls.avail=True
+
+    def get_orderdetails(self):
+        print(self.details)
+
+o1=Order(11,'MP1',35)
+o2=Order(12,'MP2',40)
+o3=Order(13,'MP3',45)
+o1.status="Inprogress"
+o3.status="Delivered"
+
+o1.add_discount()
+o2.add_discount()
+o1.check_avail()
+
+'''********* Reading Instance Variable '''
+'''inside a class - using self'''
+'''outside a class - using objectname'''
+print(o1.details)
+o2.get_orderdetails()
+print(o3.details)
+
+
+'''' updating '''
+o3.price=48
+print(o3.price)
+
+
+'''deleting'''
+
+del o2.price
+print(o2.__dict__)
