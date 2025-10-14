@@ -1,0 +1,33 @@
+Rest API -1
+-------------------
+Usage:Application Root Request
+API URL:http://127.0.0.1:8000/
+Method Type:GET
+Required Fields: None
+Access Type:Public
+
+
+Rest API -2
+-------------------
+Usage:Application About Page
+API URL:http://127.0.0.1:8000/about
+Method Type:GET
+Required Fields: None
+Access Type:Public
+
+Rest API -3
+-------------------
+Usage:Fetch All Users
+API URL:http://127.0.0.1:8000/users
+Method Type:GET
+Required Fields: None
+Access Type:Public
+
+
+Rest API -4
+-------------------
+Usage:Fetch user by Id
+API URL:http://127.0.0.1:8000/users/101
+Method Type:GET
+Required Fields: None
+Access Type:Public
