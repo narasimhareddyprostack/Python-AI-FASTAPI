@@ -1,0 +1,32 @@
+Create
+------------------------
+Usage:Create new user
+API URL:http://127.0.0.1:8000/create 
+Method Type:POST
+Required Fields:uname,email,mobile
+Access Type:Public
+
+Read
+----------
+Usage:fetch all users
+API URL:http://127.0.0.1:8000/read
+Method Type:GET
+Required Fields:None
+Access Type:Public
+
+Update
+-----------
+Usage:update User by Uid
+API URL:http://127.0.0.1:8000/update/101
+Method Type:PUT
+Required Fields:uname,email,mobile
+Access Type:Public
+
+DELETE
+----------------
+Usage:delete user by uid
+API URL:http://127.0.0.1:8000/delete/101 
+Method Type:DELETE
+Required Fields:None
+Access Type:Public
+
