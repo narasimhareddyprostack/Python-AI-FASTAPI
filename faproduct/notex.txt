@@ -1,0 +1,14 @@
+create  - end point
+--------------
+usage:create New Product
+API URL: http://127.0.0.1:8000/api 
+method Type:POST
+Required Fields: pname,price,qty,info 
+Access Type: Public 
+
+Data Validation
+----------------
+pname - required field and max lenght is 40 char
+price - requried field and min price value is 1000
+qty   - required field and min 1 and max 100
+info  - required field
